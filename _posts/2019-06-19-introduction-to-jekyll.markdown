@@ -6,6 +6,7 @@ date: 2019-06-19
 categories: [jekyll]
 ---
 Jekyll is a simple static site generator. There are others in markets like hugo (*haven't used it*).
+<!-- more -->
 What makes it different is - it's blog aware and very simple.
 
 > Built on Ruby
