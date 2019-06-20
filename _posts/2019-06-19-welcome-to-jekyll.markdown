@@ -2,21 +2,26 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2019-06-19 21:04:09 +0530
+tags: jekyll
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+
+Jekyll is a simple static site generator. There are others in markets like hugo (*haven't used it*).
 <!-- more -->
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+What makes it different is - it's blog aware and very simple.
 
-Jekyll also offers powerful support for code snippets:
+> Built on Ruby
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+## Features
+- [Markdown](http://daringfireball.net/projects/markdown) or [Textile](http://redcloth.org/textile) support
+- [Liquid](http://liquidmarkup.org/) templating.
+- Out of the box blog-aware features
+ - categories
+ - layouts
+ - pages, posts ...
+- Github site deployment
+
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 

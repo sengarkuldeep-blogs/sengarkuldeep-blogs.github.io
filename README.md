@@ -5,4 +5,3 @@ This blog is attempt to write what I'm learning.
 - Github Pages
 - Jekyll
 - Theme - [Minimal Text](https://github.com/clarkhacks/Minimal-Text) 
-
