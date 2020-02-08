@@ -7,14 +7,17 @@ categories: jekyll update
 ---
 
 
-Jekyll is a simple static site generator. There are others in markets like hugo (*haven't used it*).
+Jekyll is a simple static site generator. This post is to help understand Jekyll and how to get started.
 <!-- more -->
-What makes it different is - it's blog aware and very simple.
 
-> Built on Ruby
+
 
 ## Features
-- [Markdown](http://daringfireball.net/projects/markdown) or [Textile](http://redcloth.org/textile) support
+
+### [Markdown](http://daringfireball.net/projects/markdown) support
+
+Jekyll provided
+
 - [Liquid](http://liquidmarkup.org/) templating.
 - Out of the box blog-aware features
  - categories
