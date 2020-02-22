@@ -1,13 +1,12 @@
 ---
 layout: default
 ---
+
 <main class="container">
   <div class="row">
     <div class="col-2">
       <h1>{{ site.title }}</h1>
-      <p class="lead">
-          <br/>{{ site.desc }}
-      </p>
+      <p class="lead"><br />{{ site.desc }}</p>
       <article>
         <h1>Posts</h1>
       </article>
@@ -16,9 +15,9 @@ layout: default
         <h1>{{ post.title }}</h1>
         <p>{{ post.excerpt }}</p>
         <a href="{{ post.url }}">[ Read ]</a>
+        <a href="#">[ {{post.categories}} ]</a>
       </article>
-      {% endfor %}
-      {% include buttons.html %}
+      {% endfor %} {% include buttons.html %}
     </div>
     {% include sidebar.html %}
   </div>
