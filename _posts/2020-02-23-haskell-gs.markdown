@@ -2,7 +2,7 @@
 layout: post
 title: "Haskell Getting Started"
 date: 2020-02-23
-categories: programming
+categories: code
 ---
 
 Haskell is a pure functional language
