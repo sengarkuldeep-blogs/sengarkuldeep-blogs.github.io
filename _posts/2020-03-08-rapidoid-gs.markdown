@@ -23,24 +23,26 @@ So this post is to write a simple rest api with Rapidoid.
 
 ## Getting started
 
-1. add the following dependency, to you `pom.xml`:
+1. add the following dependency, to you **pom.xml**:
 
 ```
-<dependency>
-<groupId>org.rapidoid</groupId>
-<artifactId>rapidoid-quick</artifactId>
-<version>5.5.5</version>
-</dependency>
+    <dependency>
+    <groupId>org.rapidoid</groupId>
+    <artifactId>rapidoid-quick</artifactId>
+    <version>5.5.5</version>
+    </dependency>
 ```
+
+> the fastest one is rapidoid-http-fast though, the bare minimun for getting server up and running.
 
 2. Create a Main class like following:
 
 ```java
-public class Main {
-    public static void main(String[] args) {
-         On.get("/").plain("Hello World!");
+    public class Main {
+        public static void main(String[] args) {
+            On.get("/").plain("Hello World!");
+        }
     }
-}
 ```
 
 And that's your hello world rest api.
