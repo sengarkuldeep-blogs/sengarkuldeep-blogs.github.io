@@ -7,7 +7,7 @@ categories: code
 
 In this post i will try to explain how to write an integration test for rest apis written using Rapidoid.
 
-<!--more-->
+<!-- more -->
 
 To test your rest api, there are two things need to do:
 
