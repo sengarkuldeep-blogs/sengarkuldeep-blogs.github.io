@@ -22,7 +22,7 @@ hr {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Cutive Mono';
+  font-family: "Cutive Mono";
 }
 
 .container .buttons {
@@ -36,7 +36,7 @@ hr {
 
 .container a {
   text-decoration: none;
-  color: #0000EE;
+  color: #0000ee;
 }
 
 .container article {
@@ -58,11 +58,6 @@ hr {
 .col-1,
 .col-2 {
   width: 96%;
-}
-
-img.about {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
 }
 
 @media only screen and (min-width: 33.75em) {
