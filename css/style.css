@@ -60,11 +60,6 @@ hr {
   width: 96%;
 }
 
-img.about {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-
 @media only screen and (min-width: 33.75em) {
   /* 540px */
   .container {
