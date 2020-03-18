@@ -1,18 +1,16 @@
 ---
 title: Brain Dump
-baseurl: "/"
+baseurl: ""
 desc: This site is an attempt to write what I'm learning.
 about: I'm developer, architect, and project lead currently living in Pune,India.
 image: https://media-exp1.licdn.com/dms/image/C5103AQGQt0Lzwwb4MA/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=vlmhVo9PC9Ha1PcWlRQOEQ4-7N5BvK8JYEtw2Sf9_CM
 excerpt_separator: "<!-- more -->"
 markdown: kramdown
-plugins:
-  - jekyll-paginate
 exclude:
   - .jekyll-metadata
   - README.md
   - CNAME
 paginate: 5
-paginate_path: ":num"
+paginate_path: "/:num/"
 highlighter: rouge
 permalink: pretty
