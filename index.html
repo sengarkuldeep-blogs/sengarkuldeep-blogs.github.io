@@ -14,9 +14,18 @@ layout: default
       <article>
         <h1>{{ post.title }}</h1>
         <p>{{ post.excerpt }}</p>
-        <a href="{{ post.url }}">[ Read ]</a>
-        {% for category in post.categories %}
-        <a href="/category/{{category}}">[ {{category}} ]</a>
+        <a href="{{ post.url }}">
+          <i class="fa fa-book fa-xs fa-pull-left" aria-hidden="true"
+            >&nbsp;Read</i
+          >
+        </a>
+
+        {% for category in post.categories %} &nbsp;&nbsp;
+        <a href="/category/{{category}}"
+          ><i class="fa fa-tag fa-xs fa-pull-right" aria-hidden="true"
+            >&nbsp;{{category}}</i
+          ></a
+        >
         {% endfor %}
       </article>
       {% endfor %} {% include buttons.html %}

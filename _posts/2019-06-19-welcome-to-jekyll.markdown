@@ -5,6 +5,7 @@ date: 2019-06-19 21:04:09 +0530
 tags: jekyll
 categories:
   - jekyll
+  - code
 ---
 
 Jekyll is a simple static site generator. This post is to help understand Jekyll and how to get started.

@@ -5,7 +5,7 @@ layout: default
 <main class="container">
   <div class="row">
     <div class="col-2">
-      <a href="/">[ Home ]</a>
+      <a href="/"><i class="fa fa-home fa-xs" aria-hidden="true">&nbsp;Home</i></a>
       <h1>Posts under : {{ page.tag }}</h1>
       <p class="lead">
         <br />This page describes all the posts related to #{{page.tag}}
@@ -17,7 +17,13 @@ layout: default
       <article>
         <h1>{{ post.title }}</h1>
         <p>{{ post.excerpt }}</p>
-        <a href="{{ post.url }}">[ Read ]</a>
+        <a href="{{ post.url }}">
+          <i class="fa fa-book fa-xs fa-pull-left" aria-hidden="true">&nbsp;Read</i>
+        </a>
+        {% for category in post.categories %} &nbsp;&nbsp;
+        <a href="/category/{{category}}"><i class="fa fa-tag fa-xs fa-pull-right"
+            aria-hidden="true">&nbsp;{{category}}</i></a>
+        {% endfor %}
       </article>
       {% endfor %}
     </div>

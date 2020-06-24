@@ -1,11 +1,13 @@
 <div class="buttons">
   {% if paginator.previous_page %}
   <span class="button">
-    <a href="{{ paginator.previous_page_path }}">[ <- Previous ]</a>
+    <a href="{{ paginator.previous_page_path }}">
+      <i class="fa fa-arrow-left fa-pull-left" aria-hidden="true"></i>
+    </a>
   </span>
   {% else %} {% endif %} {% if paginator.next_page %}
-  <span class="button">
-    <a href="{{ paginator.next_page_path }}">[ Next -> ]</a>
-  </span>
+  <a href="{{ paginator.next_page_path }}"
+    ><i class="fa fa-arrow-right fa-pull-right" aria-hidden="true"></i>
+  </a>
   {% else %} {% endif %}
 </div>
