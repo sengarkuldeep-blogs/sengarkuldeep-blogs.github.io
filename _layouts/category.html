@@ -5,21 +5,21 @@ layout: default
 <main class="container">
   <div class="row">
     <div class="col-2">
-      <h1>{{ site.title }}</h1>
-      <p class="lead"><br />{{ site.desc }}</p>
+      <a href="/">[ Home ]</a>
+      <h1>Posts under : {{ page.tag }}</h1>
+      <p class="lead">
+        <br />This page describes all the posts related to #{{page.tag}}
+      </p>
       <article>
         <h1>Posts</h1>
       </article>
-      {% for post in paginator.posts %}
+      {% for post in site.categories[page.tag] %}
       <article>
         <h1>{{ post.title }}</h1>
         <p>{{ post.excerpt }}</p>
         <a href="{{ post.url }}">[ Read ]</a>
-        {% for category in post.categories %}
-        <a href="/category/{{category}}">[ {{category}} ]</a>
-        {% endfor %}
       </article>
-      {% endfor %} {% include buttons.html %}
+      {% endfor %}
     </div>
     {% include sidebar.html %}
   </div>

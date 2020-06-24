@@ -2,7 +2,8 @@
 layout: post
 title: "Testing a Rapidoid rest api"
 date: 2020-03-10
-categories: code
+categories:
+  - "code"
 ---
 
 In this post i will try to explain how to write an integration test for rest apis written using Rapidoid.

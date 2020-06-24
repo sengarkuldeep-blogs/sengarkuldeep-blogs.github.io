@@ -2,7 +2,8 @@
 layout: post
 title: "Rapidoid"
 date: 2020-03-08
-categories: code
+categories:
+  - code
 ---
 
 Rapidoid is extremely fast and lightweight framework for building rest apis. In this post I will be writing how to get started just by writing a few a lines of code.

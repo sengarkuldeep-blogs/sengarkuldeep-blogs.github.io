@@ -2,7 +2,8 @@
 layout: post
 title: "Growth Mindset"
 date: 2020-02-01
-categories: philosophy
+categories:
+  - philosophy
 ---
 
 Stanford psychologist Carol Dweck found, in her book 'Mindset', that people adopt two mindsets: Fixed Mindset and Growth Mindset

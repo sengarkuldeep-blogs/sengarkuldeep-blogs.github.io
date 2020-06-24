@@ -2,7 +2,8 @@
 layout: post
 title: "Compounding of Knowledge"
 date: 2020-02-08
-categories: philosophy
+categories:
+  - philosophy
 ---
 
 We all have heard the power of compounding interest. Once the interest is added to the principal it contributes to future interest.
