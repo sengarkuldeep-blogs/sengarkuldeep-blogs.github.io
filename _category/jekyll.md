@@ -1,4 +1,4 @@
 ---
-tag: philosophy
-permalink: "/category/philosophy"
+tag: jekyll
+permalink: "/category/jekyll"
 ---
