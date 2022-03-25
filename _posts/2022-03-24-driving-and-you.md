@@ -3,7 +3,7 @@ layout: post
 title: "Driving and you"
 date: 2022-03-24
 categores:
- - "philosophy"
+ - philosophy
 ---
 
 There is a lot of things you can learn about yourself and life while driving. 
