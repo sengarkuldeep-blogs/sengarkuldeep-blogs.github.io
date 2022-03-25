@@ -16,4 +16,5 @@ Driving can be very educational and brain stimulating. Here are some thoughts on
 1. Focus more on what's ahead and use rear mirror just as a reference point. 
 2. Do what's in your control
 3. Don't try to predict what others want to do. 
-4. Don't compete
+4. Don't compete with others but your own path and destination. 
+
