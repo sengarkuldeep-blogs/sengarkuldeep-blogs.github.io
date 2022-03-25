@@ -11,7 +11,6 @@ An Omnibus PR is like [Omnibus Bill](https://en.wikipedia.org/wiki/Omnibus_bill)
 
 <!-- more -->
 
-# What is code review
 > A Code review a stage in software development lifecycle where developers consciously and systematically convene with fellow developers to look over the code and find out mistakes. 
 
 Once the developer is finished with writing code, they send a request to other developers inviting them to review the code, i.e. to be a reviewer. A Reviewer looks at five main areas:
