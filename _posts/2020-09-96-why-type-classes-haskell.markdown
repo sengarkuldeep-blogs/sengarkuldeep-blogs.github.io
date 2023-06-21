@@ -9,7 +9,7 @@ categories:
 Haskell is static typed language, that means it has to know all the types at compile time and not runtime.
 But in certain cases like polymorphism, Haskell does something smart to assess the type, through type inference.
 
-<!--more-->
+<!-- more -->
 
 When you type in your GHCi prompt `:t "Hello" ` you would see an output as :
 
