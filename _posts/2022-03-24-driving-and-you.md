@@ -2,11 +2,12 @@
 layout: post
 title: "Driving and you"
 date: 2022-03-24
-categores:
+categories:
   - "philosophy" 
 ---
-
 There is a lot of things you can learn about yourself and life while driving. 
+
+<!-- more -->
 
 Driving can be very educational and brain stimulating. Here are some thoughts on how it can help know more about yourself. 
 
@@ -15,4 +16,3 @@ Driving can be very educational and brain stimulating. Here are some thoughts on
 3. Don't try to predict what others want to do. 
 4. Don't compete with others but your own path and destination. 
 
-<!-- more -->

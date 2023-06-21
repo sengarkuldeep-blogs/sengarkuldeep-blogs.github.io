@@ -2,11 +2,12 @@
 layout: post
 title: "Omnibus PR"
 date: 2022-03-16
-categores:
+categories:
   - "code"
 ---
 An Omnibus PR is like [Omnibus Bill](https://en.wikipedia.org/wiki/Omnibus_bill) that covers a number of diverse and unrelated changes. 
 
+<!-- more -->
 
 > A Code review a stage in software development lifecycle where developers consciously and systematically convene with fellow developers to look over the code and find out mistakes. 
 
@@ -18,7 +19,6 @@ Once the developer is finished with writing code, they send a request to other d
 5. Quality of tests: Are the new automated tests sufficient? Do the existing tests need to rewritten to account for code change?
 
 
-<!-- more -->
 ## A short history
 
 Code review was first introduced in the 1976 when Michael Fagan wrote a series of journals for IBM and published a ground breaking paper, [Design and code inspections to reduce errors in program development](https://ieeexplore.ieee.org/document/5388086), The idea of formal and systematic code review caught on quickly. It generally consisted of bunch of people sitting together around the table poring over dot-matrix print-outs of computer code. 
