@@ -3,7 +3,7 @@ layout: post
 title: "Omnibus PR"
 date: 2022-03-16
 categores:
-  - code
+  - "code"
 ---
 An Omnibus PR is like [Omnibus Bill](https://en.wikipedia.org/wiki/Omnibus_bill) that covers a number of diverse and unrelated changes. 
 
